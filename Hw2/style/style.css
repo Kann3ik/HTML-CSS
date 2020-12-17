@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f8f8;
+}
+.menu, a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+h1, h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list {
+    color: darkgreen;
+}
+
+.list > li {
+    width: 140px;
+    height: 25px;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input {
+    height: 25px;
+    color: black;
+    font-style: italic;
+}
+
+.subm {
+    background-color: green;
+}
+.res {
+    background-color: red;
+}
