@@ -1,0 +1,161 @@
+
+body {
+    background-color: #f8f8f8;
+    font-family:helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    /*background-color: #2118FF;*/
+    height: 100px;
+    background: url("img/header-1.svg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.index_main {
+    /*background-color: #E1E0E1;*/
+    height: 400px;
+}
+
+.catalog_main {
+    display: flex; /* Включаем режим Flexbox. */
+    flex-direction: row; /* Держим элементы в строке */
+    justify-content: space-between; /* Распределяем элементы внутри шапки */
+    flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+}
+
+.catalog_main > div {
+    width: 150px;
+    text-align: center;
+    word-break: break-word;
+}
+.catalog_main img {
+    width: 100%;
+    height: 200px;
+}
+
+.footer {
+    height: 100px;
+    background: url("img/footer-1.svg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer > p {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    color: #FFF8F8F8;
+}
+
+a {
+    color: #3dd1e9;
+    text-decoration:none;
+}
+
+.menu {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.menu li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu li a:hover {
+    color: #00abff;
+}
+
+.logo {
+    /*margin: 0 7px;*/
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+}
+
+.goods_img {
+    float: left;
+    margin: auto 20px 20px auto;
+}
+
+.goods_subtitles {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+
+.short_description {
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed_description {
+    color:#484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list li {
+    list-style-image: url("img/kisspng-check-mark-computer-icons.jpg");
+}
+
+input[type="text"], [type="email"], textarea {
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+}
+
+input[type="text"], textarea {
+    text-transform: capitalize;
+}
+
+input[type="text"], [type="email"] {
+    width: 300px ;
+    position:absolute; left: 60px;
+}
+
+input[type="email"]:focus {
+    background-color: #dff5ff;
+}
+
+input[type="submit"], [type="button"] {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #00acee, #3dd1e9);
+    background-origin: border-box;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, [type="button"]:hover {
+    background: transparent;
+    color: #222;
+    border-color: #00acee;
+}
+
+input[type="submit"]:focus, [type="button"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
