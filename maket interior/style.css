@@ -18,23 +18,9 @@ body {
     margin: 0 auto;
 }
 
-.slider {
-    height: 800px;
-    background-image: url("img/slider-img.jpg");
-    position: relative;
-}
-.contact-header {
-    height: 360px;
-    background-color: #f5f5f5;
-    position: relative;
-}
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
-}
-
-.header {
-    padding-top: 63px;
 }
 
 .menu {
@@ -68,6 +54,22 @@ body {
     border-bottom: 3px solid #212121;
 }
 
+ /* Home Page */
+
+.slider {
+    height: 800px;
+    background-image: url("img/slider-img.jpg");
+    position: relative;
+}
+.contact-header {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
 
 .slider-trending {
     color: #43a047;
@@ -477,7 +479,6 @@ text-decoration: none;
 }
 
 .bottom-text-two {
-    /* float: right; */
     text-align: right;
     margin-right: 97px;
 }
@@ -520,6 +521,7 @@ text-decoration: none;
 }
 
 
+/* Contact Page */
 
 .contact-header-h2 {
     color: #212121;
@@ -545,9 +547,9 @@ text-decoration: none;
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.9;
-    float:left;
     text-align: center;
     margin: 0 8px;
+    float:left;
 }
 
 .image-marker {
