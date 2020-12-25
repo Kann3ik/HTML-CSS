@@ -341,11 +341,13 @@ text-decoration: none;
 }
 
 .mobile-text-h2 {
+    width: 407px;
+    height: 116px;
     color: #212121;
-    font-size: 60px;
+    font-size: 53px;
     font-weight: 100;
-    text-align: left;
     text-transform: uppercase;
+    line-height: 72px;
     padding-top: 22px;
 }
 
@@ -479,10 +481,30 @@ text-decoration: none;
     letter-spacing: normal;
     text-align: left;
     margin-top: 26px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    padding-left: 18px;
 }
 
 .image-social{
     margin-top: -10px;
     margin-left: 120px;
     float: left;
+}
+.navigation {
+    position: fixed;
+    right: 10px;
+    bottom: 286px;
+    width: 50px;
+    height: 100px;
+}
+
+.navigation img {
+    width: 50px;
+    height: 50px;
+    opacity: 0.05;
+}
+
+.navigation img:hover {
+    opacity: 0.3;
 }
