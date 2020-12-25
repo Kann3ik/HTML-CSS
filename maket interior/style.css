@@ -23,7 +23,11 @@ body {
     background-image: url("img/slider-img.jpg");
     position: relative;
 }
-
+.contact-header {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+}
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
@@ -368,10 +372,13 @@ text-decoration: none;
 }
 
 .footer {
+        width: 1366px;
+        margin: 0 auto;
     height: 384px;
     background-color: #f7f7f7;
 }
 .contact{
+    margin-left: 98px;
     float: left;
     padding-top: 120px;
 }
@@ -453,6 +460,7 @@ text-decoration: none;
     letter-spacing: normal;
     text-align: left;
     margin-top: 24px;
+    margin-right: 98px;
 }
 
 .LetsSay {
@@ -465,11 +473,13 @@ text-decoration: none;
 }
 .bottom-text-one {
     float: left;
+    margin-left: 98px;
 }
 
 .bottom-text-two {
     /* float: right; */
     text-align: right;
+    margin-right: 97px;
 }
 
 .email-input {
@@ -507,4 +517,91 @@ text-decoration: none;
 
 .navigation img:hover {
     opacity: 0.3;
+}
+
+
+
+.contact-header-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 171px;
+}
+
+.california-block {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 122px;
+}
+
+.block-list {
+    height: 370px;
+    width: 370px;
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    float:left;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.image-marker {
+    margin-top: 48px;
+}
+.contact-marker-h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+
+.phone, .contact-email, .contact-address {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.contact-text{
+    width: 271px;
+    height: 138px;
+    margin-top: 23px;
+    margin-left: 50px;
+}
+.phone-number {
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+
+}
+
+.contact-email-text {
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+
+}
+
+.contact-address-text {
+    font-family: "Montserrat Light";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+
 }
