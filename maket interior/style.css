@@ -357,14 +357,21 @@ text-decoration: none;
     padding-top: 26px;
 }
 
+.store {
+    margin-top: 33px;
+}
+
+.google-play{
+    margin-left: 10px;
+}
+
 .footer {
-    height: 384;
+    height: 384px;
     background-color: #f7f7f7;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .contact{
     float: left;
+    padding-top: 120px;
 }
 
 .contact-h2{
@@ -386,22 +393,26 @@ text-decoration: none;
     letter-spacing: normal;
     
     text-align: left;
+    margin-top: 24px;
 }
 
 .useful-list{
     color: #212121;
     font-size: 14px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
     text-align: left;
     text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    letter-spacing: 0.7px;
 }
 
 .usefulinformation {
     float: left;
     margin-left: 80px;
     margin-right: 80px;
+    padding-top: 120px;
+    letter-spacing: 0.7px;
 }
 
 .useful-h2{
@@ -409,14 +420,20 @@ text-decoration: none;
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: normal;
     text-align: left;
     text-transform: uppercase;
 }
 
 .useful-left{
     float: left;
+    margin-top: 25px;
 }
+.useful-right{
+    float: right;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
 .LetsSay-h2{
     color: #6c6c6c;
     font-size: 18px;
@@ -433,4 +450,39 @@ text-decoration: none;
     font-style: normal;
     letter-spacing: normal;
     text-align: left;
+    margin-top: 24px;
+}
+
+.LetsSay {
+    padding-top: 120px;
+}
+
+.bottom-text{
+    margin-top: 77px;
+    margin-bottom: 39;
+}
+.bottom-text-one {
+    float: left;
+}
+
+.bottom-text-two {
+    /* float: right; */
+    text-align: right;
+}
+
+.email-input {
+    color: #6c6c6c;
+    font-family: icomoon;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 26px;
+}
+
+.image-social{
+    margin-top: -10px;
+    margin-left: 120px;
+    float: left;
 }
